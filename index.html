@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Metro App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chennai Metro Rail</h1>
+        <label for="fromStation">From:</label>
+        <select id="fromStation"></select>
+        
+        <label for="toStation">To:</label>
+        <select id="toStation"></select>
+        
+        <button onclick="calculateFare()">Get Fare</button>
+        <p id="fareResult"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
